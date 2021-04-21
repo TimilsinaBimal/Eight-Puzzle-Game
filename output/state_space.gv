@@ -1,0 +1,2293 @@
+digraph "State Space Tree" {
+	node [fillcolor=lightblue2 shape=plaintext style=filled]
+	size="200,200"
+	overlap=false
+	label="State Space Tree of Eight Puzzle game"
+	fontsize=50
+	0 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 6 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD>  </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	1 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 6 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	0 -> 1
+	2 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 6 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        </TABLE>>]
+	0 -> 2
+	3 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD>  </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	0 -> 3
+	0.8638595964847662 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 6 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD>  </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	0 -> 0.8638595964847662
+	0.9900170285503509 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 6 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	1 -> 0.9900170285503509
+	0.832156432147665 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 6 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD>  </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	1 -> 0.832156432147665
+	4 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 6 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	1 -> 4
+	0.24136574418042145 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 6 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	1 -> 0.24136574418042145
+	0.9963222898428146 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 6 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD>  </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	2 -> 0.9963222898428146
+	0.10004119503354114 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 6 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        </TABLE>>]
+	2 -> 0.10004119503354114
+	5 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 6 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        </TABLE>>]
+	2 -> 5
+	0.15021950208516044 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 6 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        </TABLE>>]
+	2 -> 0.15021950208516044
+	6 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 1 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	3 -> 6
+	7 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 4 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	3 -> 7
+	8 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD>  </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 8 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	3 -> 8
+	0.006044649152644244 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 6 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD>  </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	3 -> 0.006044649152644244
+	0.23157156392053457 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 6 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	4 -> 0.23157156392053457
+	9 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 6 </TD>
+                        <TD>  </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	4 -> 9
+	10 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 6 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	4 -> 10
+	0.5215165070384302 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 6 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	4 -> 0.5215165070384302
+	11 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD>  </TD>
+                        <TD> 6 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        </TABLE>>]
+	5 -> 11
+	0.44664881789305777 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 6 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        </TABLE>>]
+	5 -> 0.44664881789305777
+	12 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 6 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        </TABLE>>]
+	5 -> 12
+	0.5866764843804364 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 6 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        </TABLE>>]
+	5 -> 0.5866764843804364
+	0.9005744854562996 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 1 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	6 -> 0.9005744854562996
+	0.21816778821084049 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD>  </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	6 -> 0.21816778821084049
+	13 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 1 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	6 -> 13
+	14 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 1 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	6 -> 14
+	0.4076010508778215 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD>  </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	7 -> 0.4076010508778215
+	0.36469510670235405 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 4 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	7 -> 0.36469510670235405
+	15 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 4 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	7 -> 15
+	16 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 4 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        </TABLE>>]
+	7 -> 16
+	17 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 2 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 8 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	8 -> 17
+	18 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 3 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 8 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	8 -> 18
+	0.9754862714965713 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD>  </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 8 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	8 -> 0.9754862714965713
+	0.3834258126915143 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD>  </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	8 -> 0.3834258126915143
+	0.4560569458965813 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 6 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	9 -> 0.4560569458965813
+	19 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 6 </TD>
+                        <TD> 4 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	9 -> 19
+	20 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD>  </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 6 </TD>
+                        <TD> 8 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	9 -> 20
+	21 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 6 </TD>
+                        <TD> 7 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD>  </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	9 -> 21
+	0.4533441715375992 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 6 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	10 -> 0.4533441715375992
+	22 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 8 </TD>
+                        <TD>  </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 6 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	10 -> 22
+	0.8439140914439844 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 6 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	10 -> 0.8439140914439844
+	0.0016709779795078816 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 6 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	10 -> 0.0016709779795078816
+	23 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 1 </TD>
+                        <TD> 6 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        </TABLE>>]
+	11 -> 23
+	0.9762141737627325 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 6 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        </TABLE>>]
+	11 -> 0.9762141737627325
+	24 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD>  </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 8 </TD>
+                        <TD> 6 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        </TABLE>>]
+	11 -> 24
+	25 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 5 </TD>
+                        <TD> 6 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD>  </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        </TABLE>>]
+	11 -> 25
+	26 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD>  </TD>
+                        <TD> 8 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 6 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        </TABLE>>]
+	12 -> 26
+	0.21274229252080534 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 6 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        </TABLE>>]
+	12 -> 0.21274229252080534
+	0.7269303455093059 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 6 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        </TABLE>>]
+	12 -> 0.7269303455093059
+	0.782913257135526 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 6 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        </TABLE>>]
+	12 -> 0.782913257135526
+	0.7731972834139458 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 1 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	13 -> 0.7731972834139458
+	27 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 8 </TD>
+                        <TD>  </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 1 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	13 -> 27
+	0.2684553149460954 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 1 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	13 -> 0.2684553149460954
+	0.3453132922708462 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 1 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	13 -> 0.3453132922708462
+	0.03753853245902172 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 1 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	14 -> 0.03753853245902172
+	28 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 1 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 6 </TD>
+                        <TD>  </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	14 -> 28
+	0.8065991432067313 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 1 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	14 -> 0.8065991432067313
+	0.16773117278949234 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 1 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	14 -> 0.16773117278949234
+	29 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD>  </TD>
+                        <TD> 8 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 4 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	15 -> 29
+	0.6020306430102818 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 4 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	15 -> 0.6020306430102818
+	0.9230892131095988 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 4 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	15 -> 0.9230892131095988
+	0.553559850481848 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 4 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	15 -> 0.553559850481848
+	30 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 4 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD>  </TD>
+                        <TD> 6 </TD>
+                        </TR>
+                        </TABLE>>]
+	16 -> 30
+	0.4424909220829447 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 4 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        </TABLE>>]
+	16 -> 0.4424909220829447
+	0.8573888907379843 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 4 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	16 -> 0.8573888907379843
+	0.3437242593869416 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 4 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        </TABLE>>]
+	16 -> 0.3437242593869416
+	0.9921879872811146 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 2 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 8 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	17 -> 0.9921879872811146
+	0.9887891544181461 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD>  </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 8 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	17 -> 0.9887891544181461
+	0.5849520218766662 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 2 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 8 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	17 -> 0.5849520218766662
+	31 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 2 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 8 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	17 -> 31
+	0.021911932092637643 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD>  </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 8 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	18 -> 0.021911932092637643
+	0.33238130076431016 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 3 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 8 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	18 -> 0.33238130076431016
+	0.7125246415218958 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 3 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 8 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	18 -> 0.7125246415218958
+	32 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 3 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 8 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	18 -> 32
+	0.11512611990010868 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 6 </TD>
+                        <TD>  </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	19 -> 0.11512611990010868
+	0.536246863845933 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 6 </TD>
+                        <TD> 4 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	19 -> 0.536246863845933
+	33 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        <TR>
+                        <TD> 6 </TD>
+                        <TD> 4 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	19 -> 33
+	34 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 6 </TD>
+                        <TD> 4 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 7 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        </TABLE>>]
+	19 -> 34
+	35 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 2 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 6 </TD>
+                        <TD> 8 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	20 -> 35
+	36 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 3 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        <TR>
+                        <TD> 6 </TD>
+                        <TD> 8 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	20 -> 36
+	0.06732043958632306 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD>  </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 6 </TD>
+                        <TD> 8 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	20 -> 0.06732043958632306
+	0.3579021917218863 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 6 </TD>
+                        <TD>  </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	20 -> 0.3579021917218863
+	37 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 6 </TD>
+                        <TD> 7 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 1 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	21 -> 37
+	38 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 6 </TD>
+                        <TD> 7 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 5 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        </TABLE>>]
+	21 -> 38
+	0.7864975724618297 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 6 </TD>
+                        <TD>  </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	21 -> 0.7864975724618297
+	0.24872744530211977 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 6 </TD>
+                        <TD> 7 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD>  </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	21 -> 0.24872744530211977
+	0.2858690617579728 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 6 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	22 -> 0.2858690617579728
+	39 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 6 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	22 -> 39
+	0.7360419837251493 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 8 </TD>
+                        <TD>  </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 6 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	22 -> 0.7360419837251493
+	40 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 8 </TD>
+                        <TD> 6 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD>  </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	22 -> 40
+	0.3900863076047091 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 1 </TD>
+                        <TD> 6 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        </TABLE>>]
+	23 -> 0.3900863076047091
+	0.4857011892926597 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD>  </TD>
+                        <TD> 6 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        </TABLE>>]
+	23 -> 0.4857011892926597
+	41 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 1 </TD>
+                        <TD> 6 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        </TABLE>>]
+	23 -> 41
+	42 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 1 </TD>
+                        <TD> 6 </TD>
+                        </TR>
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 5 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        </TABLE>>]
+	23 -> 42
+	43 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 2 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 8 </TD>
+                        <TD> 6 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        </TABLE>>]
+	24 -> 43
+	44 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 3 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 8 </TD>
+                        <TD> 6 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        </TABLE>>]
+	24 -> 44
+	0.7994820817535403 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD>  </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 8 </TD>
+                        <TD> 6 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        </TABLE>>]
+	24 -> 0.7994820817535403
+	0.37264291932218196 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD>  </TD>
+                        <TD> 6 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        </TABLE>>]
+	24 -> 0.37264291932218196
+	45 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 5 </TD>
+                        <TD> 6 </TD>
+                        </TR>
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 7 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        </TABLE>>]
+	25 -> 45
+	46 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 5 </TD>
+                        <TD> 6 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 4 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        </TABLE>>]
+	25 -> 46
+	0.6423893121929609 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD>  </TD>
+                        <TD> 6 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        </TABLE>>]
+	25 -> 0.6423893121929609
+	0.7995120401534237 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 5 </TD>
+                        <TD> 6 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD>  </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        </TABLE>>]
+	25 -> 0.7995120401534237
+	47 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 6 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        </TABLE>>]
+	26 -> 47
+	0.9352762781841233 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 6 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        </TABLE>>]
+	26 -> 0.9352762781841233
+	0.683319614442363 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD>  </TD>
+                        <TD> 8 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 6 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        </TABLE>>]
+	26 -> 0.683319614442363
+	48 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 6 </TD>
+                        <TD> 8 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD>  </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 5 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        </TABLE>>]
+	26 -> 48
+	0.9397826909034445 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 1 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	27 -> 0.9397826909034445
+	49 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 1 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	27 -> 49
+	0.698050249935775 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 8 </TD>
+                        <TD>  </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 1 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	27 -> 0.698050249935775
+	50 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 8 </TD>
+                        <TD> 1 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD>  </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	27 -> 50
+	0.4315870215530565 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 1 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	28 -> 0.4315870215530565
+	51 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 1 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        </TABLE>>]
+	28 -> 51
+	52 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD>  </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 6 </TD>
+                        <TD> 1 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	28 -> 52
+	0.713608552558613 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 1 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 6 </TD>
+                        <TD>  </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	28 -> 0.713608552558613
+	53 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 4 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	29 -> 53
+	0.15257237356415299 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 4 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	29 -> 0.15257237356415299
+	0.1929619261067136 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD>  </TD>
+                        <TD> 8 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 4 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	29 -> 0.1929619261067136
+	54 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 4 </TD>
+                        <TD> 8 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD>  </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	29 -> 54
+	55 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 4 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        </TR>
+                        </TABLE>>]
+	30 -> 55
+	0.03809354925127695 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 4 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD>  </TD>
+                        </TR>
+                        </TABLE>>]
+	30 -> 0.03809354925127695
+	56 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD>  </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 4 </TD>
+                        <TD> 6 </TD>
+                        </TR>
+                        </TABLE>>]
+	30 -> 56
+	0.6008750458599819 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 2 </TD>
+                        <TD> 8 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 4 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD>  </TD>
+                        <TD> 6 </TD>
+                        </TR>
+                        </TABLE>>]
+	30 -> 0.6008750458599819
+	0.5070921419714103 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 2 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD>  </TD>
+                        <TD> 8 </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	31 -> 0.5070921419714103
+	node [fillcolor=pink shape=plaintext style=filled]
+	57 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                        <TD> 1 </TD>
+                        <TD> 2 </TD>
+                        <TD> 3 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 8 </TD>
+                        <TD>  </TD>
+                        <TD> 4 </TD>
+                        </TR>
+                        <TR>
+                        <TD> 7 </TD>
+                        <TD> 6 </TD>
+                        <TD> 5 </TD>
+                        </TR>
+                        </TABLE>>]
+	31 -> 57
+}
